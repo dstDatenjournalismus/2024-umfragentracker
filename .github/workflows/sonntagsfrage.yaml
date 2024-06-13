@@ -17,7 +17,7 @@ jobs:
           output/data/sonntagsfrage/sonntagsfrage.csv
           https://api.apa.at/data/dossiers/datenpunkt_demokratie/sonntagsfrage/dossier_sonntagsfrage/nationalrat_details.csv
       - name: Save download time
-        run: echo $(date) > output/data/sonntagsfrage/sonntagsfrage_downloadtime.txt
+        run: echo echo $(date '+%Y-%m-%d') > output/data/sonntagsfrage/sonntagsfrage_downloadtime.txt
       - name: Commit files
         run: |
           git config --local user.name actions-user
