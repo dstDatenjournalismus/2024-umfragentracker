@@ -10,11 +10,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Create data_raw directory
-        run: mkdir -p data_raw
+        run: mkdir -p output/data
       - name: Download Data
         run: >
           curl -H "Authorization: Bearer ${{ secrets.BEARER_TOKEN }}" -o
-          data_raw/sonntagsfrage.csv
+          output/data/sonntagsfrage.csv
           https://api.apa.at/data/dossiers/datenpunkt_demokratie/sonntagsfrage/dossier_sonntagsfrage/nationalrat_details.csv
       - name: Save download time
         run: echo $(date) > data_raw/sonntagsfrage_downloadtime.txt
