@@ -1,40 +1,35 @@
 name: Download Sonntagsfrage
 
-# Controls when the action will run.
 on:
   schedule:
-    - cron:  "0 10 * * *"
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
   workflow_dispatch:
-
+    # Allows manual triggering of the workflow
 
 jobs:
-  autoscrape:
-
-    # The type of runner that the job will run on
-    runs-on: macos-latest
-
-    # Load repo and install R
+  download-file:
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: r-lib/actions/setup-r@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-    # Set-up R
-    - name: Install packages
-      run: |
-        R -e 'install.packages("jsonlite")'
+      - name: Create data_raw directory
+        run: mkdir -p data_raw
 
-    # Run R script
-    - name: Scrape
-      run: Rscript R/get_data_neusiedler_see.R
+      - name: Download Data
+        run: wget --header="Authorization: Bearer ${{ secrets.BEARER_TOKEN }}" -O data_raw/sonntagsfrage.csv https://api.apa.at/data/dossiers/datenpunkt_demokratie/sonntagsfrage/dossier_sonntagsfrage/nationalrat_details.csv
 
-    # Add new files in data folder, commit along with other modified files, push
-    - name: Commit files
-      run: |
-        git config --local user.name actions-user
-        git config --local user.email "actions@github.com"
-        git add -A
-        git commit -am "new wasserstand data from $(date)"
-        git push origin main
-      env:
-        REPO_KEY: ${{secrets.GITHUB_TOKEN}}
-        username: github-actions
+      - name: Save download time
+        run: echo $(date) > data_raw/sonntagsfrage_downloadtime.txt
+
+      - name: Commit files
+        run: |
+          git config --local user.name actions-user
+          git config --local user.email "actions@github.com"
+          git add -A
+          git commit -am "Sonntagsfrage download at: $(date)"
+          git push origin main
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          username: github-actions
