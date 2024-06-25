@@ -1,5 +1,5 @@
 name: Download Sonntagsfrage
-'on':
+"on":
   schedule:
     - cron: 0 0 * * *
   workflow_dispatch: null
@@ -16,6 +16,13 @@ jobs:
           curl -H "Authorization: Bearer ${{ secrets.BEARER_TOKEN }}" -o
           output/data/sonntagsfrage/sonntagsfrage.csv
           https://api.apa.at/data/dossiers/datenpunkt_demokratie/sonntagsfrage/dossier_sonntagsfrage/nationalrat_details.csv
+      - name: Create data_raw directory
+        run: mkdir -p output/data/vertrauensindex
+      - name: Download Data
+        run: >
+          curl -H "Authorization: Bearer ${{ secrets.BEARER_TOKEN }}" -o
+          output/data/vertrauensindex/vertrauensindex.csv
+          https://api.apa.at/data/dossiers/politik/vertrauensindex/dossier_vertrauensindex/basisdaten.csv
       - name: Save download time
         run: echo $(date '+%Y-%m-%d') > output/data/sonntagsfrage/sonntagsfrage_downloadtime.txt
       - name: Commit files
@@ -23,8 +30,8 @@ jobs:
           git config --local user.name actions-user
           git config --local user.email "actions@github.com"
           git add -A
-          git commit -am "Sonntagsfrage download at: $(date)"
+          git commit -am "Data downloaded at: $(date)"
           git push origin main
         env:
-          REPO_KEY: '${{secrets.GITHUB_TOKEN}}'
+          REPO_KEY: "${{secrets.GITHUB_TOKEN}}"
           username: github-actions
