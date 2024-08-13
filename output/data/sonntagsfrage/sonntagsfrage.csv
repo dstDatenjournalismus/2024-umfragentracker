@@ -1,4 +1,5 @@
 datum,region,election_type,id,institut,medium,auftraggeber,methode,befragt,schwankung,grundgesamtheit,befragung_von,befragung_bis,fiktive_variante,anmerkungen,quelle,ÖVP,SPÖ,FPÖ,NEOS,GRÜNE,SONSTIGE,KPÖ,BIER
+2024-08-09,Österreich,Nationalrat,2024079,Lazarsfeld Gesellschaft,oe24,oe24,Online,2000,2.2,,2024-07-29,2024-08-06,,geglättet mit Vorwoche,https://www.oe24.at/oesterreich/politik/parteien/aktuelle-umfrage-fpoe-auf-platz-1-wie-festgenagelt/603345315,23,22.0,27.0,10,8,3.0,2,5
 2024-07-29,Österreich,Nationalrat,2024078,IFDD,Radio Content Austria,Radio Content Austria,Online,1100,3.0,,2024-07-25,2024-07-26,,Umfrage per Mail erhalten,,25,23.0,26.0,9,9,0.0,3,5
 2024-07-28,Österreich,Nationalrat,2024077,Unique Research,Kronen Zeitung,Kronen Zeitung,Online; Telefon,1000,3.1,,2024-07-08,2024-07-12,,,https://www.krone.at/3473380,23,20.0,28.0,9,9,1.0,4,6
 2024-07-27,Österreich,Nationalrat,2024076,Spectra,OÖN,Bundesländerzeitungen,Online; Telefon,1000,3.1,,2024-07-12,2024-07-21,,,"https://www.nachrichten.at/politik/innenpolitik/wahl-umfrage-fp-voran-vp-und-sp-kopf-an-kopf;art385,3969479",22,22.0,27.0,9,9,1.0,4,6
