@@ -1,4 +1,30 @@
 Monat,Name,Partei,Geschlecht,Funktion,Saldo,Veränderung,Parlaments_ID
+2024-08-01,Alexander Van der Bellen,parteilos,Mann,Bundespräsident,20,-3,PAD_02856
+2024-08-01,Martin Kocher,ÖVP,Mann,Bundesminister für Wirtschaft und Arbeit,13,10,PAD_18140
+2024-08-01,Doris Bures,SPÖ,Frau,2. Nationalratspräsidentin ,12,2,PAD_00145
+2024-08-01,Johannes Rauch,Grüne,Mann,"Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz",5,0,PAD_21029
+2024-08-01,Magnus Brunner,ÖVP,Mann,Bundesminister für Finanzen,3,6,PAD_55727
+2024-08-01,Alma Zadić,Grüne,Frau,Bundesministerin für Justiz,1,1,PAD_02345
+2024-08-01,Beate Meinl-Reisinger,NEOS,Frau,Klubobfrau,-3,6,PAD_83122
+2024-08-01,Alexander Schallenberg,ÖVP,Mann,Bundesminister für europäische und internationale Angelegenheiten,-3,5,PAD_05430
+2024-08-01,Andrea Mayer,Grüne,Frau,"Staatssekretärin im Bundesministerium für Kunst, Kultur, öffentlichen Dienst und Sport",-3,0,PAD_07267
+2024-08-01,Susanne Kraus-Winkler,ÖVP,Frau,Staatssekretärin im Bundesministerium für Arbeit und Wirtschaft,-11,-1,PAD_21406
+2024-08-01,Norbert Totschnig,ÖVP,Mann,"Bundesminister für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",-15,-1,PAD_10778
+2024-08-01,Susanne Raab,ÖVP,Frau,"Bundesministerin für Frauen, Familie, Integration und Medien im Bundeskanzleramt",-17,4,PAD_06486
+2024-08-01,Norbert Hofer,FPÖ,Mann,3. Nationalratspräsident,-20,1,PAD_35521
+2024-08-01,Gerhard Karner,ÖVP,Mann,Bundesminister für Inneres,-21,4,PAD_20445
+2024-08-01,Karl Nehammer,ÖVP,Mann,Bundeskanzler,-22,5,PAD_02136
+2024-08-01,Werner Kogler,Grüne,Mann,Vizekanzler,-24,0,PAD_08242
+2024-08-01,Karoline Edtstadler,ÖVP,Frau,Bundesministerin für EU und Verfassung im Bundeskanzleramt,-25,6,PAD_02979
+2024-08-01,Klaudia Tanner,ÖVP,Frau,Bundesministerin für Landesverteidigung,-25,3,PAD_06485
+2024-08-01,Claudia Plakolm,ÖVP,Frau,Staatssekretärin im Bundeskanzleramt,-26,3,PAD_02295
+2024-08-01,Leonore Gewessler,Grüne,Frau,"Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie",-26,-5,PAD_05653
+2024-08-01,August Wöginger,ÖVP,Mann,Klubobmann,-28,0,PAD_14795
+2024-08-01,Andreas Babler,SPÖ,Mann,Bundesparteivorsitzender,-29,-6,PAD_23963
+2024-08-01,Martin Polaschek,ÖVP,Mann,"Bundesminister für Bildung, Wissenschaft und Forschung",-30,4,PAD_20449
+2024-08-01,Sigrid Maurer,Grüne,Frau,Klubobfrau,-32,-3,PAD_83101
+2024-08-01,Herbert Kickl,FPÖ,Mann,Klubobmann,-42,5,PAD_35520
+2024-08-01,Wolfgang Sobotka,ÖVP,Mann,Nationalratspräsident,-50,5,PAD_88386
 2024-05-01,Alexander Van der Bellen,parteilos,Mann,Bundespräsident,23,1,PAD_02856
 2024-05-01,Doris Bures,SPÖ,Frau,2. Nationalratspräsidentin ,10,2,PAD_00145
 2024-05-01,Johannes Rauch,Grüne,Mann,"Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz",5,-1,PAD_21029
