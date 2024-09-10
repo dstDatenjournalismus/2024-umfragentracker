@@ -1,4 +1,7 @@
 datum,region,election_type,id,institut,medium,auftraggeber,methode,befragt,schwankung,grundgesamtheit,befragung_von,befragung_bis,fiktive_variante,anmerkungen,quelle,ÖVP,SPÖ,FPÖ,NEOS,GRÜNE,SONSTIGE,KPÖ,BIER
+2024-09-09,Österreich,Nationalrat,2024090,IFES,,SPÖ,Online; Telefon,1001,3.5,,2024-08-28,2024-09-04,,Umfrage per Mail erhalten,,22,23.0,27.0,10,9,2.0,3,4
+2024-09-09,Österreich,Nationalrat,2024088,IFDD,Kronen Zeitung,Kronen Zeitung,Online,1000,3.1,,2024-09-02,2024-09-06,,Metadaten von IFDD nachgeliefert,https://www.krone.at/3516848,25,20.0,27.0,9,8,3.0,3,5
+2024-09-06,Österreich,Nationalrat,2024089,Unique Research,profil,profil,Online; Telefon,1200,2.8,,2024-08-28,2024-09-04,,,https://www.profil.at/oesterreich/umfrage/grosse-profil-umfrage-kickl-auf-siegeskurs/402944655,24,20.0,28.0,9,9,1.0,3,6
 2024-09-06,Österreich,Nationalrat,2024087,Lazarsfeld Gesellschaft,oe24,oe24,Online,2000,,,2024-09-02,2024-09-04,,geglättet mit Vorwoche,https://www.oe24.at/oesterreich/politik/nationalratswahl/wahl-wird-doch-noch-zum-krimi-oevp-holt-stark-auf/605860874,26,20.0,28.0,10,7,2.0,3,4
 2024-08-30,Österreich,Nationalrat,2024086,Lazarsfeld Gesellschaft,oe24,oe24,Online,2000,2.2,,2024-08-26,2024-08-27,,geglättet mit Vorwoche,https://www.oe24.at/oesterreich/politik/parteien/umfrage-spoe-nur-noch-bei-20-doch-auch-die-fpoe-verliert/605250267,23,20.0,27.0,12,8,3.0,3,4
 2024-08-29,Österreich,Nationalrat,2024085,IFDD,Radio Content Austria,Radio Content Austria,Online,1200,3.1,,2024-08-23,2024-08-26,,Umfrage per Mail erhalten,,25,21.0,27.0,8,9,3.0,2,5
