@@ -1,4 +1,5 @@
 datum,region,election_type,id,institut,medium,auftraggeber,methode,befragt,schwankung,grundgesamtheit,befragung_von,befragung_bis,fiktive_variante,anmerkungen,quelle,ÖVP,SPÖ,FPÖ,NEOS,GRÜNE,SONSTIGE,KPÖ,BIER
+2024-09-14,Österreich,Nationalrat,2024093,Spectra,Die Presse,Bundesländerzeitungen,Online; Telefon,1000,3.1,,2024-09-02,2024-09-09,,,https://www.diepresse.com/18858666/exklusive-umfrage-die-neos-koennten-zu-den-koenigsmachern-werden,24,21.0,27.0,10,8,2.0,3,5
 2024-09-13,Österreich,Nationalrat,2024092,Unique Research,Heute,Heute,Online; Telefon,800,3.5,,2024-09-05,2024-09-11,,,https://www.heute.at/s/neue-heute-umfrage-so-steht-das-rennen-um-oesterreich-120058586,25,21.0,28.0,9,8,2.0,3,4
 2024-09-13,Österreich,Nationalrat,2024091,Lazarsfeld Gesellschaft,oe24,oe24,Online,2000,2.2,,2024-09-09,2024-09-10,,geglättet mit Vorwoche,https://www.oe24.at/oesterreich/politik/nationalratswahl/umfrage-fast-eine-million-frauen-sind-noch-unentschlossen/606452321,25,20.0,28.0,10,7,3.0,3,4
 2024-09-09,Österreich,Nationalrat,2024090,IFES,,SPÖ,Online; Telefon,1001,3.5,,2024-08-28,2024-09-04,,Umfrage per Mail erhalten,,22,23.0,27.0,10,9,2.0,3,4
