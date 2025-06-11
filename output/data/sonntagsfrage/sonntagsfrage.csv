@@ -1,5 +1,5 @@
 datum,region,election_type,id,institut,medium,auftraggeber,methode,befragt,schwankung,grundgesamtheit,befragung_von,befragung_bis,fiktive_variante,anmerkungen,quelle,ÖVP,SPÖ,FPÖ,NEOS,GRÜNE,SONSTIGE,KPÖ,BIER
-2025-06-08,Österreich,Nationalrat,2025034,IFDD,Kronen Zeitung,Kronen Zeitung,,1250,2.8,,2025-06-06,2025-06-07,,,https://www.krone.at/3807540,24,19.0,32.0,10,11,1.0,3,
+2025-06-08,Österreich,Nationalrat,2025034,IFDD,Kronen Zeitung,Kronen Zeitung,Online,1250,2.8,,2025-06-06,2025-06-07,,,https://www.krone.at/3807540,24,19.0,32.0,10,11,1.0,3,
 2025-06-06,Österreich,Nationalrat,2025033,Lazarsfeld Gesellschaft,oe24,oe24,Online,2000,2.2,,2025-05-26,2025-05-27,,1000er Sample; geglättet mit Vorwoche,https://www.oe24.at/oesterreich/politik/parteien/100-tage-dreierkoalition-ampelparteien-hinken-in-umfrage-hinterher/636230350,20,21.0,34.0,9,10,3.0,3,
 2025-06-06,Österreich,Nationalrat,2025032,Unique Research,Heute,Heute,Online; Telefon,800,3.5,,2025-06-02,2025-06-05,,,https://www.heute.at/s/fpoe-vorn-aber-riesen-ueberraschung-in-neuer-umfrage-120112441,23,19.0,31.0,13,10,1.0,3,
 2025-05-31,Österreich,Nationalrat,2025031,OGM,Kurier,Kurier,Online,1011,3.1,,2025-05-23,2025-05-26,,,https://kurier.at/politik/inland/kurier-ogm-regierung-umfrage-100-tage-spoe-oevp-neos-kickl/403045956,22,21.0,32.0,12,9,1.0,3,
