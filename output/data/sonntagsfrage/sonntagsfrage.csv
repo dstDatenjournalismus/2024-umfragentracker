@@ -1,4 +1,5 @@
 datum,region,election_type,id,institut,medium,auftraggeber,methode,befragt,schwankung,grundgesamtheit,befragung_von,befragung_bis,fiktive_variante,anmerkungen,quelle,ÖVP,SPÖ,FPÖ,NEOS,GRÜNE,SONSTIGE,KPÖ,BIER
+2025-09-05,Österreich,Nationalrat,2025038,Lazarsfeld Gesellschaft,oe24,oe24,Online,2000,2.2,,2025-09-01,2025-09-02,,1000er Sample; geglättet mit Vorwoche,https://www.oe24.at/oesterreich/politik/parteien/umfrage-beben-fpoe-schon-bei-36-prozent/647359465,21,19.0,36.0,9,10,3.0,2,
 2025-08-04,Österreich,Nationalrat,2025037,Market,Der Standard,Der Standard,Online; Persönlich,810,,,2025-07-24,2025-07-30,,,https://www.derstandard.at/story/3000000281753/verbreiteter-pessimismus-nuetzt-der-fpoe,22,20.0,35.0,10,9,1.0,3,
 2025-06-10,Österreich,Nationalrat,2025035,Market,Der Standard,Der Standard,Online; Persönlich,824,,,2025-05-28,2025-06-03,,,https://www.derstandard.at/story/3000000272885/100-tage-im-amt-kein-kanzlerbonus-fuer-christian-stocker,21,20.0,34.0,10,10,2.0,3,
 2025-06-08,Österreich,Nationalrat,2025034,IFDD,Kronen Zeitung,Kronen Zeitung,Online,1250,2.8,,2025-06-06,2025-06-07,,,https://www.krone.at/3807540,24,19.0,32.0,10,11,1.0,3,
